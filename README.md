@@ -16,5 +16,7 @@ X = (n2 * n3) / n1
 
 ## 🖼️ Tela do Aplicativo
 
-![Tela do App](assets/print-tela.png)
+<p align="center">
+  <img src="calculator/assets/print-tela.png" alt="Tela do App" width="400"/>
+</p>
 
