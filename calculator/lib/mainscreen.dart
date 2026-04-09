@@ -7,28 +7,27 @@ class MainScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Padding(
-              padding: const EdgeInsets.only(left: 5),
-              child: Icon(Icons.arrow_back_ios, color: Colors.black),
+              padding: const EdgeInsets.only(right: 80),
+              child: Icon(Icons.arrow_back_ios, color: const Color.fromARGB(255, 255, 255, 255)),
             ),
-            Container(
-            
-              child: SizedBox(
-                child: Padding(
-                  padding: const EdgeInsets.only(left: 20),
-                  child: Text("Regra de Três"),
-                ),
-              ),
+            SizedBox(
+              child: Text("Regra de Três",
+              style: TextStyle(
+                color: const Color.fromARGB(255, 255, 255, 255)
+              ),),
             ),
             Padding(
-              padding: const EdgeInsets.only(right: 0),
-              child: Icon(Icons.menu, color: Colors.black),
+              padding: const EdgeInsets.only(left: 80),
+              child: Icon(Icons.menu, color: const Color.fromARGB(255, 255, 255, 255)),
             ),
           ],
         ),
 
-        backgroundColor: Colors.teal,
+        backgroundColor: const Color.fromARGB(255, 139, 67, 207),
       ),
       body: Center(child: Calculator()),
     );
