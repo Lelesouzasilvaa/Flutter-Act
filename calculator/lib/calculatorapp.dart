@@ -10,5 +10,4 @@ class CalculatorApp extends StatelessWidget {
       home: MainScreen(),
     );
   }
-
 }
