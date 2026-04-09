@@ -19,7 +19,7 @@ import 'package:flutter/material.dart';
    if (n1 == 0) return "Erro: divisão por zero";
 
   double resultado = (n2 * n3) / n1;
-  return resultado.toString();
+  return resultado.toStringAsFixed(2);
 
 
 }
